@@ -1,0 +1,84 @@
+
+.duelo {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.duelo img {
+    height: 400px;
+}
+
+.duelo img {
+    height: 400px;
+}
+
+.borde {
+    border: 6px solid #eae20ddb;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+.bordeI {
+    border: 6px solid #0f66e8;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+.nombreI {
+    background-color: #0f66e8;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+.nombre {
+    background-color: #eae20ddb;
+    padding: 5px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.puntaje {
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fondoP {
+    background-color: #d0ea0ddb;
+    border-radius: 10px;
+}
+
+.fondoP h4 {
+    background-color: #ea7c0ddb;
+    padding: 11px 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.misCartas {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+/*medias queries*/
+
+@media only screen and (max-width: 600px) {
+    .duelo {
+        flex-direction: column;
+    }
+    .vs {
+        max-width: fit-content;
+    }
+    .colvs {
+        align-items: center;
+    }
+    .borde img {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 600px) {}
+
+.colvs {
+    padding: 15px;
+}
